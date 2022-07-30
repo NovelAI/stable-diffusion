@@ -6,6 +6,8 @@ setup(
     description='',
     packages=find_packages(),
     include_package_data=True,
+    package_data={
+        'ldm': ['*']},
     install_requires=[
         'torch',
         'numpy',
